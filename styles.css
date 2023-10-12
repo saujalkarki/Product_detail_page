@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  /* primary Color variable for background */
+  --clr-primary-0: #fff;
+  --clr-primary-1: #000;
+  /* Color variable for Text */
+  --clr-btn-card: #7d8184;
+  --clr-text-0: #fafafa;
+  --clr-text-1: #7d8184;
+  --clr-text-2: #000000;
+
+  /* Secondary COlor variable */
+  --clr-secondary-0: #f5f5f5;
+  --clr-secondary-1: #fefaf1;
+  --clr-secondary-2: #db4444;
+
+  /* Color Variable for button background */
+  --clr-btn-1: #00ff66;
+  --clr-btn-hover-1: #a0bce0;
+  --clr-btn-2: #db4444;
+  --clr-btn-hover-2: #e07575;
+
+  /* Color for success */
+  --clr-success-500: #10b981;
+
+  /* setting font family for the whole */
+  font-family: "Poppins", sans-serif;
+}
+
+/* .main-main {
+  background-color: #00ff66;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+} */
+
+.title-list {
+  padding: 3em 4.25em;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 50% 35%;
+  justify-content: space-evenly;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 0.8rem;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-secondary-0);
+  border-radius: 5px;
+}
+
+.img-5 {
+  grid-column: 2;
+  grid-row: 1 / span 4;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  gap: 1rem;
+}
+
+.item-1 h2 {
+  margin: 0;
+}
+
+.item-2 {
+  display: flex;
+  align-items: center;
+}
+
+.item-2-span-1 {
+  color: var(--clr-text-1);
+}
+
+.item-2-span-3 {
+  color: var(--clr-btn-1);
+}
+
+.item-3 {
+  color: var(--clr-text-2);
+}
+
+.item-3,
+.item-5,
+.item-6,
+.item-7 {
+  font-size: 1.5em;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--clr-text-2);
+}
+
+.item-4 p {
+  margin: 0;
+}
+
+.hr1 {
+  margin: 0;
+  width: 100%;
+}
+
+.item-5 {
+  display: flex;
+  gap: 1rem;
+}
+
+.item-6 {
+  display: grid;
+  grid-template-columns: 15% 10% 10% 10% 10% 10%;
+}
+
+.item-6 button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+}
+
+.item-6 span {
+  display: flex;
+  align-items: center;
+}
+
+.btn-m {
+  color: var(--clr-text-0);
+  background-color: var(--clr-btn-2);
+}
+
+.btn-XS,
+.btn-S,
+.btn-L,
+.btn-XL {
+  background-color: white;
+}
+
+.item-7 {
+  display: grid;
+  grid-template-columns: 42% 42% 10%;
+  gap: 1rem;
+}
+
+.item-7 .inc-dec {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  border-radius: 5px;
+}
+
+.inc-dec div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus {
+  background-color: var(--clr-btn-2);
+  color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.btn-heart {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.btn-buy {
+  background-color: var(--clr-btn-2);
+  color: white;
+  font-size: 0.6em;
+  line-height: 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.item-8 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.item-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-a h4 {
+  margin: 15px auto;
+}
